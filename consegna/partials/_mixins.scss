@@ -26,6 +26,20 @@ nav {
   @include allineato;
 }
 
+//MIXIN GRIGLIA
+
+// @mixin grid($amountPerLine) {
+//   display: flex;
+//   flex-wrap: wrap;
+//   & > img {
+//     width: (100% / $amountPerLine) - 1;
+//   }
+// }
+
+// section {
+//   @include grid(4);
+//}
+
 section {
   @include allineato();
   img {

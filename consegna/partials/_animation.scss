@@ -1,0 +1,43 @@
+@keyframes fadein {
+  0% {
+    transform: translate(0, -150px);
+    opacity: 0;
+  }
+  100% {
+    transform: translate(0, 0px);
+    opacity: 1;
+  }
+}
+#bg-hero-text {
+  animation: fadein 0.75s ease-out 0s 1 forwards;
+}
+
+#img-bottoni {
+  opacity: 0;
+  animation: fadein 0.75s ease-out 0.25s 1 forwards;
+}
+
+#bottoni {
+  opacity: 0;
+  animation: fadein 0.75s ease-out 0.5s 1 forwards;
+}
+
+#prima-card {
+  opacity: 0;
+  animation: fadein 0.75s ease-out 1s 1 forwards;
+}
+
+#seconda-card {
+  opacity: 0;
+  animation: fadein 0.75s ease-out 1.25s 1 forwards;
+}
+
+#terza-card {
+  opacity: 0;
+  animation: fadein 0.75s ease-out 1.5s 1 forwards;
+}
+
+#quarta-card {
+  opacity: 0;
+  animation: fadein 0.75s ease-out 1.75s 1 forwards;
+}
