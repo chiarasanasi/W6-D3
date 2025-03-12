@@ -1,0 +1,48 @@
+@mixin title-big {
+  font-size: $large;
+  font-weight: $bolder;
+}
+
+@mixin floating {
+  border-radius: 25px;
+  box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.6);
+  border: 2px solid #640fc5;
+}
+
+@mixin allineato {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  @include allineato;
+  ul {
+    @include allineato;
+  }
+}
+
+#bg-hero {
+  @include allineato;
+}
+
+section {
+  @include allineato();
+  img {
+    @include floating();
+
+    width: 20%;
+  }
+}
+
+#div-bottoni {
+  position: relative;
+}
+@mixin absolute {
+  position: absolute;
+  bottom: 60px;
+}
+
+#bottoni {
+  @include absolute();
+}

@@ -1,0 +1,32 @@
+$spacing-size: (
+  sm: 0.5em,
+  normal: 1em,
+  md: 2em,
+  lg: 3em,
+  xl: 4em,
+  xxl: 5em,
+);
+
+@each $size, $value in $spacing-size {
+  .padding-block-#{$size} {
+    padding-block: $value;
+  }
+  .padding-inline-#{$size} {
+    padding-inline: $value;
+  }
+
+  .margin-block-#{$size} {
+    margin-block: $value;
+  }
+  .margin-inline-#{$size} {
+    margin-inline: $value;
+  }
+}
+
+header img {
+  width: 15%;
+}
+
+#bg-hero img {
+  width: 80%;
+}

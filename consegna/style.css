@@ -1,0 +1,357 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+    v2.0 | 20110126
+    License: none (public domain)
+ */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#bg-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+section img {
+  border-radius: 25px;
+  box-shadow: 0px 0px 16px 5px rgba(0, 0, 0, 0.6);
+  border: 2px solid #640fc5;
+  width: 20%;
+}
+
+#div-bottoni {
+  position: relative;
+}
+
+#bottoni {
+  position: absolute;
+  bottom: 60px;
+}
+
+.padding-block-sm {
+  padding-block: 0.5em;
+}
+
+.padding-inline-sm {
+  padding-inline: 0.5em;
+}
+
+.margin-block-sm {
+  margin-block: 0.5em;
+}
+
+.margin-inline-sm {
+  margin-inline: 0.5em;
+}
+
+.padding-block-normal {
+  padding-block: 1em;
+}
+
+.padding-inline-normal {
+  padding-inline: 1em;
+}
+
+.margin-block-normal {
+  margin-block: 1em;
+}
+
+.margin-inline-normal {
+  margin-inline: 1em;
+}
+
+.padding-block-md {
+  padding-block: 2em;
+}
+
+.padding-inline-md {
+  padding-inline: 2em;
+}
+
+.margin-block-md {
+  margin-block: 2em;
+}
+
+.margin-inline-md {
+  margin-inline: 2em;
+}
+
+.padding-block-lg {
+  padding-block: 3em;
+}
+
+.padding-inline-lg {
+  padding-inline: 3em;
+}
+
+.margin-block-lg {
+  margin-block: 3em;
+}
+
+.margin-inline-lg {
+  margin-inline: 3em;
+}
+
+.padding-block-xl {
+  padding-block: 4em;
+}
+
+.padding-inline-xl {
+  padding-inline: 4em;
+}
+
+.margin-block-xl {
+  margin-block: 4em;
+}
+
+.margin-inline-xl {
+  margin-inline: 4em;
+}
+
+.padding-block-xxl {
+  padding-block: 5em;
+}
+
+.padding-inline-xxl {
+  padding-inline: 5em;
+}
+
+.margin-block-xxl {
+  margin-block: 5em;
+}
+
+.margin-inline-xxl {
+  margin-inline: 5em;
+}
+
+header img {
+  width: 15%;
+}
+
+#bg-hero img {
+  width: 80%;
+}
+
+main h1,
+main li,
+main p {
+  color: #f4f4f4;
+}
+
+main ul {
+  list-style-type: disc;
+}
+
+nav ul li a {
+  text-decoration: none;
+  background-color: #640fc5;
+  color: #f4f4f4;
+  border-radius: 15px;
+}
+
+#bg-hero {
+  background-color: #640fc5;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.list-items {
+  font-weight: 700;
+}
+
+.btn-primary {
+  background-color: #00e5e5;
+  color: rgb(0, 0, 71);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  font-weight: 700;
+}
+.btn-primary:hover {
+  background-color: #7fffff;
+}
+
+.btn-secondary {
+  background-color: #f4f4f4;
+  color: rgb(0, 0, 71);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  font-weight: 700;
+}
+.btn-secondary:hover {
+  background-color: white;
+}
+
+.btn-third {
+  background-color: #640fc5;
+  color: rgb(0, 0, 71);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s ease;
+  font-weight: 700;
+}
+.btn-third:hover {
+  background-color: #b278f5;
+}/*# sourceMappingURL=style.css.map */

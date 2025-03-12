@@ -1,0 +1,16 @@
+@each $name, $color in $colors {
+  .btn-#{$name} {
+    background-color: $color;
+    color: rgb(0, 0, 71);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: $small;
+    transition: background 0.3s ease;
+    font-weight: $bold;
+
+    &:hover {
+      background-color: lighten($color, 30%);
+    }
+  }
+}
